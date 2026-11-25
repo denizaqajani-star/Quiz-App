@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Frontend Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="data.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div id="subject" class="subject"></div>
+      <div class="controls">
+        <button id="sound" aria-label="Toggle sound" aria-pressed="true">Sound on</button>
+        <span aria-hidden="true">&#9788;</span>
+        <button id="theme" role="switch" aria-label="Dark mode"
+          aria-checked="true"><span></span></button>
+        <span aria-hidden="true">&#9789;</span>
+      </div>
+    </header>
+    <main id="app" class="layout"></main>
+  </div>
+</body>
+</html>
